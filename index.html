@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style.css" />
     <title>FCC Tribute Page</title>
   </head>
   <body>
-    <main>
-      <h1>Dr. Nikola Tesla</h1>
+    <main id="main">
+      <h1 id="title">Dr. Nikola Tesla</h1>
       <p>Great Inventor and True Genius</p>
-      <div>
-        <div class="img-div">
-          <img src="./assets/nikola_tesla.jpg" alt="nikola_tesla" />
-        </div>
-        <caption>
+
+      <div class="img-div">
+        <img id="image" src="./assets/nikola_tesla.jpg" alt="nikola_tesla" />
+
+        <caption id="img-caption">
           Dr. Nikola Tesla in research facility in Colorado Springs.
         </caption>
       </div>
-      <div class="tribute-info">
+      <div id="tribute-info">
         <h2>Nikola Tesla's Life:</h2>
         <ul>
           <li><strong>1856</strong>: Nikola Tesla is Born.</li>
@@ -78,19 +79,21 @@
           <li><strong>1943</strong>: Nikola Tesla Dies.</li>
         </ul>
       </div>
-      <div class="citation">
-        <p>
+      <div id="citation">
+        <p id="quote">
           “The scientists of today think deeply instead of clearly. One must be
           sane to think clearly, but one can think deeply and be quite insane.”
         </p>
         <cite>--Dr. Nikola Tesla</cite>
       </div>
-      <h4>Read More about Dr. Nikola Tesla and his life on</h4>
+      <h4>Read More about Dr. Nikola Tesla and his life</h4>
       <a
+        id="tribute-link"
         href="https://worldhistoryproject.org/topics/nikola-tesla"
         target="_blank"
         rel="noopener noreferrer"
-      ></a>
+        >Here</a
+      >
     </main>
     <link
       rel="testable-projects-fcc"
